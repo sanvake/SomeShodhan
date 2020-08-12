@@ -1,0 +1,2 @@
+Solution methodology: We are using a DHT11 sensor along with a soil moisture sensor to monitor the temperature, humidity and soil moisture levels of a farm. 
+We will keep track of these factors for a long period of time, analyse them and compare it with historical data. Through this, we will be able to predict the yield beforehand.

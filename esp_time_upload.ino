@@ -80,7 +80,7 @@ Serial.print(":");
 Serial.println(timeClient.getSeconds());
 
 //Serial.println(timeClient.getFormattedTime());
-if((h==12||h==18)&&m==0&&(s==0||s==59||s==1))
+if((m==15||m==30||m==45||m==0)&&(s==0||s==59||s==1))// checkes and uploades every 15 mninutes
 { 
   if(flag==0)
   {
@@ -113,7 +113,7 @@ if((h==12||h==18)&&m==0&&(s==0||s==59||s==1))
   }  
    client.stop();  
 }     
-if((h==12||h==18)&&m==15&&(s==0||s==59||s==1))
+if((m==17||m==32||m==47||m==2)&&(s==0||s==59||s==1))
 {
   lcd.clear();
   flag=0;

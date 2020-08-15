@@ -80,7 +80,7 @@ Serial.print(":");
 Serial.println(timeClient.getSeconds());
 
 //Serial.println(timeClient.getFormattedTime());
-if(s==0)
+if(s==0||s==1||s==2)
 { 
   if(flag==0)
   {

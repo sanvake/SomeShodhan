@@ -80,7 +80,7 @@ Serial.print(":");
 Serial.println(timeClient.getSeconds());
 
 //Serial.println(timeClient.getFormattedTime());
-if((m==15||m==30||m==45||m==0)&&(s==0||s=1||s==2))// checkes and uploades every 15 mninutes
+if((m==15||m==30||m==45||m==0)&&(s==0||s==1||s==2))// checkes and uploades every 15 mninutes
 { 
   if(flag==0)
   {
